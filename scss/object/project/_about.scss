@@ -1,0 +1,35 @@
+.p-about {
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mq($breakpoint: md) {
+            display: block;
+        }
+    }
+    &__img {
+        width: 20%;
+        max-width: 600px;
+        @include mq($breakpoint: md) {
+            width: 50%;
+            margin: 0 auto;
+        }
+        & img {
+            border-radius: 70%;
+        }
+    }
+    &__intro {
+        max-width: 1000px;
+        width: 50%;
+        line-height: 2;
+        letter-spacing: 2px;
+        font-size: 16px;
+        padding: 30px;
+        @include mq($breakpoint: md) {
+            width: 90%;
+            text-align: center;
+            margin: 0 auto;
+            font-size: $font-size_s;
+        }
+    }
+}

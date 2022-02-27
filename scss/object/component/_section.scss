@@ -1,0 +1,49 @@
+.c-section {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    &__container {
+        width: 70%;
+        margin: 0 auto;
+        @include mq() {
+            width: 90%;
+        }
+    }
+    &__title {
+        width: 100%;
+        text-align: center;
+        line-height: 1.5;
+        font-family: $font-family;
+        font-size: $font-size_xxl;
+        letter-spacing: 3px;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        &--shadow {
+            font-weight: normal;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            color: #b7b9b5;
+            letter-spacing: 2px;
+            font-size: 66px;
+            opacity: .2;
+            line-height: 60px;
+        }
+    }
+    &__description {
+        text-align: center;
+        line-height: 1.8;
+        margin: 20px 0;
+        @include mq() {
+            font-size: $font-size_s;
+        }
+    }
+    &:nth-child(2n) {
+        background: #fff;
+    }
+}
