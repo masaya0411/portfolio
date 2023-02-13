@@ -1,0 +1,46 @@
+html,body {
+    width: 100%;
+    font-family: sans-serif;
+    color: $font-color;
+}
+body {
+  background-image: url(../images/white-simple-textured-design-background.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+button {
+  transition: .3s;
+  &:hover {
+    transition: .3s;
+    cursor: pointer;
+  }
+}
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+input,button,textarea,select {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type=email]:focus,input[type=password]:focus,input[type=text]:focus,select:focus,textarea:focus {
+  border-bottom: 2px solid #78a5dc;
+  outline: #78a5dc;
+}

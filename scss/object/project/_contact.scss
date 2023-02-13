@@ -1,0 +1,59 @@
+.p-contact {
+    &__wrap {
+        width: 50%;
+        margin: 0 auto;
+        padding: 40px 0;
+        @include mq($breakpoint: md) {
+            width: 70%;
+        }
+        @include mq() {
+            width: 100%;
+        }
+    }
+    &__form {
+        padding: 20px 10px;
+        &__list {
+            margin-bottom: 40px;
+        }
+        &__label {
+            color: #777777;
+            font-size: $font-size_m;
+        }
+        &__input {
+            display: block;
+            border-bottom: 1px solid #707070;
+            width: 100%;
+            font-size: $font-size_m;
+            padding: 10px 20px;
+        }
+        &__text {
+            display: block;
+            border-bottom: 1px solid #707070;
+            width: 100%;
+            min-height: 200px;
+            font-size: $font-size_m;
+            padding: 10px 20px;
+            resize: none;
+        }
+        &__wrap {
+            margin: 20px auto;
+        }
+        &__btn {
+            color: #fff;
+            font-size: 24px;
+            font-family: $font-family;
+            padding: 8px 60px;
+            background: #4284A7;
+            border-radius: 4px;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+            transition: .3s;
+            &:hover {
+                background: #569abe;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+                transition: .3s;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.p-skill {
+    &__chart {
+        display: flex;
+        justify-content: space-between;
+        @include mq($breakpoint: md) {
+            display: block;
+        }
+        &__panel {
+            width: 30%;
+            @include mq($breakpoint: md) {
+                width: 100%;
+            }
+        }
+    }
+}
