@@ -393,14 +393,20 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, sel
       display: block; } }
 
 .p-about__img {
-  width: 20%;
-  max-width: 600px; }
+  min-width: 200px; }
   @media screen and (max-width: 768px) {
     .p-about__img {
-      width: 50%;
+      width: 25%;
       margin: 0 auto; } }
+  @media screen and (max-width: 414px) {
+    .p-about__img {
+      width: 50%; } }
   .p-about__img img {
-    border-radius: 70%; }
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 6px #4c76d5; }
 
 .p-about__intro {
   max-width: 1000px;

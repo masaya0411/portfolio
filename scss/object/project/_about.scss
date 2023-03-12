@@ -8,14 +8,20 @@
         }
     }
     &__img {
-        width: 20%;
-        max-width: 600px;
+        min-width: 200px;
         @include mq($breakpoint: md) {
-            width: 50%;
+            width: 25%;
             margin: 0 auto;
         }
+        @include mq($breakpoint: sm) {
+            width: 50%;
+        }
         & img {
-            border-radius: 70%;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: solid 6px #4c76d5;
         }
     }
     &__intro {
