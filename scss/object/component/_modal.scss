@@ -26,7 +26,7 @@
         display: flex;
         align-items: center;
         overflow: scroll;
-        @include mq() {
+        @include mq($breakpoint: md) {
             display: block;
             width: 95%;
             height: 90vh;
@@ -42,7 +42,7 @@
     }
     &__wrap {
         display: flex;
-        @include mq() {
+        @include mq($breakpoint: md) {
             display: block;
         }
     }
@@ -53,25 +53,24 @@
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
         &-wrap {
             width: 60%;
-            @include mq() {
+            padding-top: 70px;
+            @include mq($breakpoint: md) {
                 width: 90%;
                 margin: 0 auto;
+                padding-top: 0px;
             }
         }
     }
     &__thumbnails {
-        text-align: center;
-        @include mq() {
-            display: flex;
-            justify-content: center;
-        }
+        display: flex;
+        justify-content: center;
         & img {
             width: 150px;
             height: 100px;
             object-fit: cover;
             margin: 0 4px;
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-            @include mq($breakpoint: md) {
+            @include mq($breakpoint: lg) {
                 width: 100px;
                 height: 80px;
             }
@@ -81,7 +80,7 @@
         width: 40%;
         max-width: 1000px;
         margin: 0 auto;
-        @include mq() {
+        @include mq($breakpoint: md) {
             width: 90%;
         }
     }
@@ -115,7 +114,7 @@
         color: #444444;
         line-height: 2;
         word-break: break-word;
-        @include mq() {
+        @include mq($breakpoint: md) {
             padding: 0;
         }
     }

@@ -225,7 +225,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, sel
     display: flex;
     align-items: center;
     overflow: scroll; }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 768px) {
       .c-modal__content {
         display: block;
         width: 95%;
@@ -239,7 +239,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, sel
     right: 16px; }
   .c-modal__wrap {
     display: flex; }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 768px) {
       .c-modal__wrap {
         display: block; } }
   .c-modal__img {
@@ -248,24 +248,23 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, sel
     margin-bottom: 20px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); }
     .c-modal__img-wrap {
-      width: 60%; }
-      @media screen and (max-width: 414px) {
+      width: 60%;
+      padding-top: 70px; }
+      @media screen and (max-width: 768px) {
         .c-modal__img-wrap {
           width: 90%;
-          margin: 0 auto; } }
+          margin: 0 auto;
+          padding-top: 0px; } }
   .c-modal__thumbnails {
-    text-align: center; }
-    @media screen and (max-width: 414px) {
-      .c-modal__thumbnails {
-        display: flex;
-        justify-content: center; } }
+    display: flex;
+    justify-content: center; }
     .c-modal__thumbnails img {
       width: 150px;
       height: 100px;
       object-fit: cover;
       margin: 0 4px;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1000px) {
         .c-modal__thumbnails img {
           width: 100px;
           height: 80px; } }
@@ -273,7 +272,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, sel
     width: 40%;
     max-width: 1000px;
     margin: 0 auto; }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 768px) {
       .c-modal__text {
         width: 90%; } }
   .c-modal__title {
@@ -303,7 +302,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, sel
     color: #444444;
     line-height: 2;
     word-break: break-word; }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 768px) {
       .c-modal__description {
         padding: 0; } }
   .c-modal__sub-title {
@@ -393,14 +392,20 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, sel
       display: block; } }
 
 .p-about__img {
-  width: 20%;
-  max-width: 600px; }
+  min-width: 200px; }
   @media screen and (max-width: 768px) {
     .p-about__img {
-      width: 50%;
+      width: 25%;
       margin: 0 auto; } }
+  @media screen and (max-width: 414px) {
+    .p-about__img {
+      width: 50%; } }
   .p-about__img img {
-    border-radius: 70%; }
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 6px #4c76d5; }
 
 .p-about__intro {
   max-width: 1000px;
