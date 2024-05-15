@@ -2,7 +2,7 @@ var ctx1 = document.getElementById("myChartFront");
 var myChart1 = new Chart(ctx1, {
     type: 'radar',
     data: {
-        labels: ["HTML/CSS", "JavaScript", "TypeScript", "Vue.js", "Next.js"],
+        labels: ["HTML / CSS", "JavaScript", "TypeScript", "Vue.js", "Next.js"],
         datasets: [
             {
             label: 'Front-end',
@@ -16,6 +16,10 @@ var myChart1 = new Chart(ctx1, {
     options: {
     scales: {
         r: {
+            ticks: {
+                stepSize: 1, // メモリの刻み幅を1に設定
+                beginAtZero: true // 必要に応じて0から始める
+            },
             min: 0,
             max: 5
         }
@@ -40,6 +44,10 @@ var myChart2 = new Chart(ctx2, {
     options: {
     scales: {
         r: {
+            ticks: {
+                stepSize: 1, // メモリの刻み幅を1に設定
+                beginAtZero: true // 必要に応じて0から始める
+            },
             min: 0,
             max: 5
         }
@@ -50,7 +58,7 @@ var ctx3 = document.getElementById("myChartTools");
 var myChart3 = new Chart(ctx3, {
     type: 'radar',
     data: {
-        labels: ["Docker", "AWS", "Git/Github", "Linux", "Vim"],
+        labels: ["Docker", "AWS", "Git / GitHub", "Linux", "Vim"],
         datasets: [
             {
             label: 'Others',
@@ -64,6 +72,10 @@ var myChart3 = new Chart(ctx3, {
     options: {
     scales: {
         r: {
+            ticks: {
+                stepSize: 1, // メモリの刻み幅を1に設定
+                beginAtZero: true // 必要に応じて0から始める
+            },
             min: 0,
             max: 5
         }

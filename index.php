@@ -106,11 +106,15 @@ if(!empty($_POST)){
                     <img src="images/profile.jpg" alt="プロフィール画像">
                 </div>
                 <p class="p-about__intro">
-                    はじめまして!西村壮哉と申します。</br>
-                    この度は私が4月生まれということもあり、ポートフォリオに桜を降らせてみました！</br>
-                    高知県出身の24歳で、現在は渋谷の自社開発企業でエンジニアとして働いています。
-                    スポーツ歴＝年齢で大学もスポーツ系大学に通っていました。全国大会優勝チームのキャプテン経験などもあり、これまでかなり本格的にスポーツに取り組んできました。</br>
-                    大学4年生まで本気で体育の教員を目指していましたが、読書などを通じて社会で通用するスキルを身につけたい！と考えるようになり、エンジニアを目指しました。
+                    はじめまして!西村壮哉です。</br>
+                    私が4月生まれということもあり、ポートフォリオに桜を降らせてみました！</br>
+</br>
+                    高知県出身の26歳で、フリーランスエンジニアとして活動しています。</br>
+                    フロント・バック・インフラと幅広く経験してきましたが、最近は特にフロントエンドに力を入れて開発を行っています。</br>
+</br>
+                    小さい頃からスポーツをずっとやってきて、全国大会優勝チームのキャプテン経験などもあり、かなり本格的にスポーツに取り組んできました。</br>
+</br>
+                    自分の技術力を高めつつも、クライアントの方の利益向上に貢献するにはどうすればよいか、常々考えながら業務に取り組んでいます！
                 </p>
             </div>
         </section>
@@ -168,14 +172,14 @@ if(!empty($_POST)){
                                     <span>使用技術</span>
                                 </h4>
                                 <p class="c-modal__description">
-                                    HTML/CSS(SASS), CSS設計(FLOCSS) JavaScript, jQuery, Vue.js, PHP, Laravel, Git, Github
+                                    HTML/CSS(SASS), CSS設計(FLOCSS) JavaScript, jQuery, Vue.js, PHP, Laravel, Git, GitHub
                                 </p>
                                 <p>
                                     <a href="https://match-engineer.com/" class="c-modal__link" target="_blank">
                                         <img src="images/demo.svg" alt="サービスアイコン">デモ
                                     </a>
                                     <a href="https://github.com/masaya0411/match.git" class="c-modal__link" target="_blank">
-                                        <img src="images/github.svg" alt="Githubアイコン">Github
+                                        <img src="images/github.svg" alt="GitHubアイコン">GitHub
                                     </a>
                                     <a href="https://qiita.com/msya0411/private/206625413fb58d21b03e" class="c-modal__link" target="_blank">
                                         <img src="images/qiita.png" alt="Qiitaアイコン" target="_blank">制作記事
@@ -213,14 +217,14 @@ if(!empty($_POST)){
                                     <span>使用技術</span>
                                 </h4>
                                 <p class="c-modal__description">
-                                    HTML/CSS(SASS), Bootstrap4, JavaScript, jQuery, Chart.js, Vue.js, PHP, Laravel, Git, Github
+                                    HTML/CSS(SASS), Bootstrap4, JavaScript, jQuery, Chart.js, Vue.js, PHP, Laravel, Git, GitHub
                                 </p>
                                 <p>
                                     <a href="https://teachingplan.msy-a.com/" class="c-modal__link" target="_blank">
                                         <img src="images/demo.svg" alt="サービスアイコン">デモ
                                     </a>
                                     <a href="https://github.com/masaya0411/teaching_plan.git" class="c-modal__link" target="_blank">
-                                        <img src="images/github.svg" alt="Githubアイコン">Github
+                                        <img src="images/github.svg" alt="GitHubアイコン">GitHub
                                     </a>
                                     <a href="https://qiita.com/msya0411/items/96b6ed21999e72c8180f" class="c-modal__link" target="_blank">
                                         <img src="images/qiita.png" alt="Qiitaアイコン">制作記事
@@ -265,7 +269,7 @@ if(!empty($_POST)){
                                         <img src="images/demo.svg" alt="サービスアイコン">デモ
                                     </a>
                                     <a href="https://github.com/masaya0411/spokatu.git" class="c-modal__link" target="_blank">
-                                        <img src="images/github.svg" alt="Githubアイコン">Github
+                                        <img src="images/github.svg" alt="GitHubアイコン">GitHub
                                     </a>
                                     <!-- <a href="" class="c-modal__link" target="_blank">
                                         <img src="images/qiita.png" alt="Qiitaアイコン">制作記事
